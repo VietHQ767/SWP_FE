@@ -1,0 +1,41 @@
+.login-form{
+    width:  100%;
+    padding: 0px 30px;
+    color: black;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: relative;
+     top: -12px;
+     font-size: 60px;
+     font-weight: bold;
+     text-decoration: underline; /* gạch chân */
+     font-style: italic; 
+}
+.login-form .ant-form-item-label > label {
+  font-size: 18px;      
+  font-weight: bold;    
+}
+.login-form input {
+  font-size: 16px;
+  padding: 10px; /* tăng vùng click, trông thoáng hơn */
+}
+.login-form .ant-input {
+  font-size: 16px;
+  height: 40px;
+}
+/* Cỡ chữ trong nút Submit */
+.login-form .ant-btn-primary {
+  background-color: black;    /* nền đen */
+  border-color: black;        /* viền đen */
+  color: white;               /* chữ màu trắng cho dễ đọc */
+  font-size: 16px;
+  font-weight: bold;
+}
+ /* Tăng kích cỡ chữ của checkbox label "Remember me" */
+.login-form .ant-checkbox-wrapper {
+  font-size: 18px;
+}
