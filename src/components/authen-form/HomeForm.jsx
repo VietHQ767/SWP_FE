@@ -19,7 +19,7 @@ export default function HomeForm() {
       <Header className="home-header">
         <div className="home-logo">
           <img src="/images/logo1.jpg" alt="logo" />
-          NOSMOKING.COMMMMMMMMMM
+          NOSMOKING.COM
         </div>
         <div className="home-header-right">
           <Text style={{ color: '#fff' }}>Membership</Text>
